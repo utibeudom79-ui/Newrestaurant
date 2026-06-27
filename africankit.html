@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ember & Spice — Authentic African Cuisine</title>
+  <link rel="stylesheet" href="africankit.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="logo">Ember <span>&</span> Spice</div>
+    <div class="nav-right">
+      <a href="contact.html#reserve" class="reserve-btn">Order Now</a>
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+    <ul class="nav-links">
+      <li><a href="africankit.html" class="active">Home</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="africankit.html">Home</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <a href="menu.html" class="mobile-reserve-btn">Order Now</a>
+  </div>
+
+  <!-- HERO CARD -->
+  <section class="hero-section">
+    <div class="hero-card">
+      <div class="hero-card-overlay"></div>
+      <img src="imgsp.jpg" alt="African Food" class="hero-card-img">
+      <div class="hero-card-content">
+        <p class="hero-eyebrow">Authentic African Cuisine · Uyo</p>
+        <h1>The Home for<br>Food Lovers</h1>
+        <p class="hero-sub">From Jollof to Afang Soup — bold flavours crafted fresh daily from the heart of Africa.</p>
+        <div class="hero-btns">
+          <a href="menu.html" class="btn-red">Order Now</a>
+          <a href="contact.html#reserve" class="btn-ghost">Reserve a Table</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- QUICK ACTIONS -->
+  <section class="quick-actions">
+    <div class="qa-card qa-order">
+      <div class="qa-icon"><i class="fa-solid fa-bag-shopping"></i></div>
+      <div class="qa-text">
+        <h4>Order Online</h4>
+        <p>Fresh food, fast delivery</p>
+      </div>
+      <a href="menu.html" class="qa-btn">Go <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+    <div class="qa-card qa-reserve">
+      <div class="qa-icon"><i class="fa-solid fa-chair"></i></div>
+      <div class="qa-text">
+        <h4>Book a Table</h4>
+        <p>Reserve your spot</p>
+      </div>
+      <a href="contact.html#reserve" class="qa-btn">Go <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+    <div class="qa-card qa-menu">
+      <div class="qa-icon"><i class="fa-solid fa-utensils"></i></div>
+      <div class="qa-text">
+        <h4>View Menu</h4>
+        <p>25+ fresh dishes</p>
+      </div>
+      <a href="menu.html" class="qa-btn">Go <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+  </section>
+
+  <!-- STRIP -->
+  <section class="info-strip">
+    <div class="strip-pill">🔥 Cooked Fresh Daily</div>
+    <div class="strip-pill">🍽️ Authentic Recipes</div>
+    <div class="strip-pill">🕐 Open 7 Days · 9am–10pm</div>
+    <div class="strip-pill">📍 Uyo, Akwa Ibom</div>
+  </section>
+
+  <!-- SPECIALTIES -->
+  <section class="specialties">
+    <div class="sec-header">
+      <div>
+        <p class="sec-tag">Our Specialties</p>
+        <h2 class="sec-title">Taste the Difference</h2>
+      </div>
+      <a href="menu.html" class="sec-link">See all <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+    <div class="carousel-wrapper">
+      <div class="carousel-track" id="carouselTrack">
+        <div class="carousel-card" data-index="0">
+          <img src="jollof.jpg" alt="Jollof Rice" onerror="this.src='https://images.unsplash.com/photo-1574484284002-952d92456975?w=600&q=80'">
+          <div class="carousel-info">
+            <h4>Party Jollof Rice</h4>
+            <p>Smoky and unforgettable</p>
+            <a href="menu.html" class="carousel-order-btn">Order</a>
+          </div>
+        </div>
+        <div class="carousel-card" data-index="1">
+          <img src="friedrice.jpg" alt="Fried Rice" onerror="this.src='https://images.unsplash.com/photo-1512058564366-18510be2db19?w=600&q=80'">
+          <div class="carousel-info">
+            <h4>Fried Rice</h4>
+            <p>Light and delicious</p>
+            <a href="menu.html" class="carousel-order-btn">Order</a>
+          </div>
+        </div>
+        <div class="carousel-card" data-index="2">
+          <img src="melon.jpg" alt="Egusi" onerror="this.src='https://images.unsplash.com/photo-1547592180-85f173990554?w=600&q=80'">
+          <div class="carousel-info">
+            <h4>Egusi Soup</h4>
+            <p>Rich and warming</p>
+            <a href="menu.html" class="carousel-order-btn">Order</a>
+          </div>
+        </div>
+        <div class="carousel-card" data-index="3">
+          <img src="https://images.unsplash.com/photo-1610057098265-05f2bcbedd55?w=600&q=80" alt="Grilled Chicken">
+          <div class="carousel-info">
+            <h4>Grilled Chicken</h4>
+            <p>Marinated in secret spices</p>
+            <a href="menu.html" class="carousel-order-btn">Order</a>
+          </div>
+        </div>
+        <div class="carousel-card" data-index="4">
+          <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=600&q=80" alt="Shawarma">
+          <div class="carousel-info">
+            <h4>Shawarma</h4>
+            <p>Crispy and hearty</p>
+            <a href="menu.html" class="carousel-order-btn">Order</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-dots" id="carouselDots">
+      <span class="dot active" data-i="0"></span>
+      <span class="dot" data-i="1"></span>
+      <span class="dot" data-i="2"></span>
+      <span class="dot" data-i="3"></span>
+      <span class="dot" data-i="4"></span>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="gallery-section">
+    <div class="sec-header">
+      <div>
+        <p class="sec-tag">Our Space</p>
+        <h2 class="sec-title">Dine in Style</h2>
+      </div>
+    </div>
+    <div class="gallery-grid">
+      <div class="gallery-item gallery-large">
+        <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&q=80&fit=crop" alt="Restaurant">
+        <div class="gallery-label">Main Dining Hall</div>
+      </div>
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&q=80&fit=crop" alt="Food">
+        <div class="gallery-label">Fine Plating</div>
+      </div>
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1424847651672-bf20a4b0982b?w=600&q=80&fit=crop" alt="Lounge">
+        <div class="gallery-label">Lounge Area</div>
+      </div>
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?w=600&q=80&fit=crop" alt="Private">
+        <div class="gallery-label">Private Dining</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about-section">
+    <div class="about-img">
+      <img src="https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?w=700&q=80&fit=crop" alt="Our Story">
+      <div class="about-badge">
+        <span class="badge-num">10+</span>
+        <span class="badge-lbl">Years of Excellence</span>
+      </div>
+    </div>
+    <div class="about-body">
+      <p class="sec-tag">Who We Are</p>
+      <h2 class="sec-title">More Than Just a Meal</h2>
+      <p class="about-p">At Ember & Spice, we bring the heart of African cuisine to your table. Every dish is crafted with passion, tradition, and the freshest ingredients sourced right here in Uyo.</p>
+      <p class="about-p">From our smoky Jollof to our rich Afang Soup — every plate is a celebration of culture, memory, and connection.</p>
+      <div class="about-stats">
+        <div class="stat"><h3>5+</h3><p>Locations</p></div>
+        <div class="stat"><h3>50k+</h3><p>Customers</p></div>
+        <div class="stat"><h3>20+</h3><p>Chefs</p></div>
+      </div>
+      <a href="about.html" class="btn-dark">Our Story <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services-section">
+    <p class="sec-tag" style="text-align:center">What We Offer</p>
+    <h2 class="sec-title" style="text-align:center;margin-bottom:28px">Every Way to Enjoy Us</h2>
+    <div class="services-grid">
+      <div class="svc-card">
+        <div class="svc-icon"><i class="fa-solid fa-utensils"></i></div>
+        <h4>Dine-In</h4>
+        <p>Warm atmosphere for families and dates.</p>
+      </div>
+      <div class="svc-card">
+        <div class="svc-icon"><i class="fa-solid fa-motorcycle"></i></div>
+        <h4>Delivery</h4>
+        <p>Hot meals to your door across Uyo.</p>
+      </div>
+      <div class="svc-card">
+        <div class="svc-icon"><i class="fa-solid fa-champagne-glasses"></i></div>
+        <h4>Catering</h4>
+        <p>Weddings, birthdays, corporate events.</p>
+      </div>
+      <div class="svc-card highlight">
+        <div class="svc-icon"><i class="fa-solid fa-chair"></i></div>
+        <h4>Reservations</h4>
+        <p>Book your table ahead of time.</p>
+        <a href="contact.html#reserve" class="svc-link">Book Now <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testi-section">
+    <p class="sec-tag" style="text-align:center">What People Say</p>
+    <h2 class="sec-title" style="text-align:center;margin-bottom:28px">Our Customers Love Us</h2>
+    <div class="testi-grid">
+      <div class="testi-card">
+        <div class="testi-stars">★★★★★</div>
+        <p class="testi-text">"The jollof rice here is unmatched. Smoky, rich, and perfectly cooked every single time!"</p>
+        <div class="testi-author">
+          <img src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=100&h=100&fit=crop&crop=face" alt="Chioma">
+          <span>Chioma A.</span>
+        </div>
+      </div>
+      <div class="testi-card">
+        <div class="testi-stars">★★★★★</div>
+        <p class="testi-text">"Best pepper soup in Uyo. The flavour hits different. I bring all my guests here."</p>
+        <div class="testi-author">
+          <img src="https://images.unsplash.com/photo-1506277886164-e25aa3f4ef7f?w=100&h=100&fit=crop&crop=face" alt="Emeka">
+          <span>Emeka O.</span>
+        </div>
+      </div>
+      <div class="testi-card">
+        <div class="testi-stars">★★★★★</div>
+        <p class="testi-text">"Authentic taste, warm service, great atmosphere. Ember & Spice never disappoints!"</p>
+        <div class="testi-author">
+          <img src="https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?w=100&h=100&fit=crop&crop=face" alt="Aisha">
+          <span>Aisha B.</span>
+        </div>
+      </div>
+      <div class="testi-card">
+        <div class="testi-stars">★★★★★</div>
+        <p class="testi-text">"Ordered the grilled chicken combo — absolutely incredible. Will definitely be back!"</p>
+        <div class="testi-author">
+          <img src="https://images.unsplash.com/photo-1504257432389-52343af06ae3?w=100&h=100&fit=crop&crop=face" alt="Tunde">
+          <span>Tunde M.</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="footer-logo">Ember <span>&</span> Spice</div>
+        <p class="footer-tagline">Authentic African cuisine, made fresh daily with love and tradition.</p>
+        <div class="footer-socials">
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+          <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="africankit.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Find Us</h4>
+        <p><i class="fa-solid fa-location-dot"></i> 123 Spice Street, Uyo, Akwa Ibom</p>
+        <p><i class="fa-solid fa-phone"></i> +234 707 525 6299</p>
+        <p><i class="fa-solid fa-clock"></i> Mon – Sun: 9am – 10pm</p>
+        <p><i class="fa-solid fa-envelope"></i> hello@emberandspice.com</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Ember & Spice. All rights reserved.</p>
+      <p>Crafted with ❤️ in Uyo</p>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/2347075256299?text=Hi%2C%20I%27d%20like%20to%20place%20an%20order" class="whatsapp-btn" target="_blank">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <script src="carousel.js"></script>
+  <script>
+    document.getElementById('hamburger').addEventListener('click', function() {
+      document.getElementById('mobileMenu').classList.toggle('open');
+    });
+    window.addEventListener('scroll', () => {
+      document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 40);
+    });
+  </script>
+</body>
+</html>
